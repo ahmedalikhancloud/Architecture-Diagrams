@@ -1,30 +1,25 @@
-# Architecture Diagrams
+# AWS cloud and AI platform architecture
 
-Cloud and AI platform architecture notes for Ahmed Ali Khan. These logical reconstructions explain the platform responsibilities, security boundaries and operating decisions behind the work described in my resume. They use generic resource names and simplified topology.
+Ahmed Ali Khan · Cloud AI Platform Engineer
 
-## Choose a story
+Architecture diagrams covering AWS infrastructure, secure AI operations and Databricks platform governance. Each view focuses on service boundaries and the decisions that make the platform operable. Client details, environment identifiers and internal policy documents are omitted. These are simplified architecture views, rather than deployment manifests.
 
-| Diagram | Experience | Main discussion |
-|---|---|---|
-| [AWS foundation](01-proximate-aws-foundation/) | Proximate | Organizations, console-to-Terraform adoption and repeatable provisioning. |
-| [Landing-zone governance](02-franklin-landing-zone-governance/) | Franklin | Control Tower, organization policies and separate deployment/runtime identities. |
-| [Early RAG pilot](03-ceo-foundry-rag-pilot/) | CEO Foundry | Event-driven content refresh and managed retrieval infrastructure. |
-| [Secure AI runtime](04-franklin-ai-runtime/) | Franklin | EKS, later AgentCore execution, cost controls and authorization boundaries. |
-| [Controlled remediation](05-franklin-controlled-actions/) | Franklin | Read-only diagnostics, bound human approval and safe asynchronous writes. |
-| [Release engineering](06-franklin-release-engineering/) | Franklin | Terraform plans, GitOps delivery and AI regression gates. |
+![AWS landing zone architecture](01-aws-landing-zones/diagram.svg)
 
-Every folder includes a basic README, editable Mermaid source, vector SVG and presentation-ready PNG. The README explains ownership, tradeoffs and failure cases, rather than merely listing services.
+## Architecture walkthroughs
 
-## Use in an interview
+| Architecture | Focus |
+| --- | --- |
+| [AWS landing zones](01-aws-landing-zones/README.md) | Account guardrails, Terraform adoption and scoped deployment access. |
+| [Secure AI runtime](02-secure-ai-runtime/README.md) | EKS, AgentCore identities, Bedrock access and tool-call visibility. |
+| [AI platform releases](03-ai-platform-release-gates/README.md) | Security checks, evaluation evidence and protected promotion. |
+| [Databricks lakehouse governance](04-databricks-lakehouse-governance/README.md) | Workspace infrastructure, Unity Catalog and Delta Lake storage access. |
+| [Early managed RAG pilot](05-ceo-foundry-rag-pilot/README.md) | Serverless deployment and security around a small retrieval application. |
+| [AWS workload operations](06-aws-workload-operations/README.md) | EC2 capacity, production diagnostics and RDS secret rotation. |
+| [S3 migration and storage](07-s3-migration-storage-controls/README.md) | Validated cutover, lifecycle decisions and selective replication. |
 
-Open the relevant PNG or SVG. Explain the business problem and your contribution before walking through the arrows. Give one implementation decision, one failure case and how you measured the result. Keep the distinction between what you personally built, what a team owned and what the managed service provided.
+Open a walkthrough for the full diagram and a brief explanation of the flow. The SVGs remain sharp when enlarged and can be downloaded from each folder.
 
-The drawings are logical reconstructions, not exports from an employer environment. Implementation choices that need project confirmation are listed in the individual READMEs. [Design notes and measurement](docs/design-notes.md) explain the boundaries and metric definitions.
+The platform scope is infrastructure, identity, delivery and operations. Application teams own business logic and agent behavior. Data teams own lakehouse transformations.
 
-## Preparation notes
-
-- [Design notes and measurement](docs/design-notes.md)
-- [Practices from experienced cloud engineers](docs/engineer-practices.md)
-- [Interview prompts](docs/interview-prep.md)
-
-These diagrams cover cloud infrastructure and AI platform operations. They do not claim model training, custom model development or a production Databricks platform from an accreditation alone. No infrastructure is deployed by this repository.
+[GitHub](https://github.com/ahmedalikhancloud) · [LinkedIn](https://www.linkedin.com/in/ahmedalikhancloud)
