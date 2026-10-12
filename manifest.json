@@ -1,0 +1,73 @@
+{
+  "title": "Architecture Diagrams",
+  "owner": "ahmedalikhancloud",
+  "format_version": 1,
+  "diagrams": [
+    {
+      "folder": "01-proximate-aws-foundation",
+      "title": "AWS foundation and the move to Terraform",
+      "experience": "Proximate Technologies",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    },
+    {
+      "folder": "02-franklin-landing-zone-governance",
+      "title": "Landing-zone governance for cloud and AI",
+      "experience": "Franklin Infotech",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    },
+    {
+      "folder": "03-ceo-foundry-rag-pilot",
+      "title": "Early RAG pilot and content ingestion",
+      "experience": "CEO Foundry",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    },
+    {
+      "folder": "04-franklin-ai-runtime",
+      "title": "Operating a secure AI runtime",
+      "experience": "Franklin Infotech",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    },
+    {
+      "folder": "05-franklin-controlled-actions",
+      "title": "Diagnostics with controlled remediation",
+      "experience": "Franklin Infotech",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    },
+    {
+      "folder": "06-franklin-release-engineering",
+      "title": "Cloud and AI release controls",
+      "experience": "Franklin Infotech",
+      "files": [
+        "README.md",
+        "diagram.mmd",
+        "diagram.svg",
+        "diagram.png"
+      ]
+    }
+  ]
+}

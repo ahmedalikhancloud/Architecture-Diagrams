@@ -1,0 +1,26 @@
+flowchart TD
+    pr["Reviewed pull request — Infrastructure, app or AI config"]
+    ci["GitHub Actions checks — Tests, security and policy checks"]
+    plan["Infrastructure plan — Terraform diff and policy review"]
+    build["Application artifact — Tested image pinned by digest"]
+    eval["AI regression gate — Fixed set + MLflow run evidence"]
+    infra["OIDC deployment role — Approved Terraform apply"]
+    gitops["ECR + GitOps change — Helm config / immutable image"]
+    ai["Versioned AI promotion — Approved config and runtime artifact"]
+    accounts["AWS workload baseline — Customer-owned resources"]
+    eks["Argo CD → EKS — Reconcile approved desired state"]
+    runtime["AI runtime release — AgentCore path where applicable"]
+    verify["Smoke checks and telemetry — Latency, errors, traces and rollback"]
+    pr -->|"checks"| ci
+    ci -->|"infra change"| plan
+    ci -->|"app change"| build
+    ci -->|"AI change"| eval
+    plan -.->|"approved plan"| infra
+    build -->|"promote digest"| gitops
+    eval -.->|"approved evaluation"| ai
+    infra -->|"apply"| accounts
+    gitops -->|"reconcile"| eks
+    ai -->|"deploy separately"| runtime
+    accounts -.->|"validate"| verify
+    eks -.->|"validate"| verify
+    runtime -.->|"validate"| verify

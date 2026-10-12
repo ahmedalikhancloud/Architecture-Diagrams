@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1050" viewBox="0 0 1300 1050" role="img" aria-labelledby="title desc">
+<title id="title">Landing-zone governance for cloud and AI</title><desc id="desc">Control Tower + Organizations | Baselines, identities and policy enforcement</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#344b65"/></marker></defs>
+<rect width="1300" height="1050" fill="#ffffff"/>
+<rect width="1300" height="112" fill="#142b45"/>
+<text x="48" y="45" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">Landing-zone governance for cloud and AI</text>
+<text x="48" y="78" font-family="Arial,sans-serif" font-size="18" fill="#dce7f1">Franklin Infotech | Control Tower + Organizations | Baselines, identities and policy enforcement</text>
+<path d="M 490.0 200.0 L 435.0 200.0 L 435.0 360.0 L 380.0 360.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="439.0" y="265.0" width="118.5" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="443.0" y="280.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">enroll / govern</text>
+<path d="M 640.0 250.0 L 640.0 310.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="646.0" y="265.0" width="90.1" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="650.0" y="280.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">OU policies</text>
+<path d="M 790.0 200.0 L 845.0 200.0 L 845.0 360.0 L 900.0 360.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="849.0" y="265.0" width="132.7" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="853.0" y="280.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">account structure</text>
+<path d="M 640.0 410.0 L 640.0 470.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="646.0" y="425.0" width="132.7" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="650.0" y="440.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">constrain actions</text>
+<path d="M 900.0 360.0 L 845.0 360.0 L 845.0 520.0 L 790.0 520.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="849.0" y="425.0" width="111.4" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="853.0" y="440.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">reviewed apply</text>
+<path d="M 490.0 520.0 L 435.0 520.0 L 435.0 680.0 L 380.0 680.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="439.0" y="585.0" width="118.5" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="443.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">role boundaries</text>
+<path d="M 640.0 570.0 L 640.0 630.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="646.0" y="585.0" width="118.5" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="650.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">role boundaries</text>
+<path d="M 790.0 520.0 L 845.0 520.0 L 845.0 680.0 L 900.0 680.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="849.0" y="585.0" width="118.5" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="853.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">role boundaries</text>
+<path d="M 230.0 730.0 L 230.0 790.0" fill="none" stroke="#798998" stroke-width="2.4" stroke-dasharray="3 5" marker-end="url(#arrow)"/>
+<rect x="236.0" y="745.0" width="111.4" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="240.0" y="760.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#798998">audit sessions</text>
+<path d="M 640.0 730.0 L 640.0 790.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="646.0" y="745.0" width="90.1" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="650.0" y="760.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">deploy only</text>
+<path d="M 900.0 680.0 L 845.0 680.0 L 845.0 840.0 L 790.0 840.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="849.0" y="745.0" width="90.1" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="853.0" y="760.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">invoke only</text>
+<path d="M 80.0 360.0 L 48.0 360.0 L 48.0 840.0 L 80.0 840.0" fill="none" stroke="#798998" stroke-width="2.4" stroke-dasharray="3 5" marker-end="url(#arrow)"/>
+<rect x="52.0" y="585.0" width="83.0" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="56.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#798998">centralize</text>
+<rect x="490" y="150" width="300" height="100" rx="10" fill="#fff5e8" stroke="#af6d22" stroke-width="1.8"/>
+<text x="640" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Organizations + Control</text>
+<text x="640" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Tower</text>
+<text x="640" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">OU structure and supported controls</text>
+<rect x="80" y="310" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="230" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Security accounts</text>
+<text x="230" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Audit and Log Archive</text>
+<rect x="490" y="310" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="640" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">SCP guardrails</text>
+<text x="640" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Account permission ceilings</text>
+<rect x="900" y="310" width="300" height="100" rx="10" fill="#eff6ff" stroke="#3766a3" stroke-width="1.8"/>
+<text x="1050" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Terraform baselines</text>
+<text x="1050" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Customer-owned workload resources</text>
+<rect x="490" y="470" width="300" height="100" rx="10" fill="#fff5e8" stroke="#af6d22" stroke-width="1.8"/>
+<text x="640" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Workload environments</text>
+<text x="640" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Development, test and production</text>
+<rect x="80" y="630" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="230" y="659" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Human access</text>
+<text x="230" y="687" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Federated, approved role sessions</text>
+<rect x="490" y="630" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="640" y="659" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">CI/CD identity</text>
+<text x="640" y="687" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">OIDC trust and scoped deployment role</text>
+<rect x="900" y="630" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="1050" y="654" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Application / agent</text>
+<text x="1050" y="677" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">roles</text>
+<text x="1050" y="702" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Distinct service and tool permissions</text>
+<rect x="490" y="790" width="300" height="100" rx="10" fill="#fff5e8" stroke="#af6d22" stroke-width="1.8"/>
+<text x="640" y="819" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Workload resources</text>
+<text x="640" y="847" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">EKS, Bedrock and approved tools</text>
+<rect x="80" y="790" width="300" height="100" rx="10" fill="#f1f5f9" stroke="#60758a" stroke-width="1.8"/>
+<text x="230" y="819" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Central audit evidence</text>
+<text x="230" y="847" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Account logs and access review</text>
+<path d="M 48 930 H 1252" stroke="#d1dce5"/>
+<text x="48" y="959" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#344b65">Solid: flow / deployment   •   Dashed: policy / approval   •   Dotted: telemetry / status</text>
+<text x="48" y="987" font-family="Arial,sans-serif" font-size="15" fill="#526577">OU/account names and exact Control Tower controls are logical placeholders.</text>
+<text x="48" y="1011" font-family="Arial,sans-serif" font-size="15" fill="#526577">Environment-setup metric is separate from account-vending time.</text>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1050" viewBox="0 0 1300 1050" role="img" aria-labelledby="title desc">
+<title id="title">Early RAG pilot and content ingestion</title><desc id="desc">Late-engagement pilot | Managed retrieval with an event-driven refresh workflow</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#344b65"/></marker></defs>
+<rect width="1300" height="1050" fill="#ffffff"/>
+<rect width="1300" height="112" fill="#142b45"/>
+<text x="48" y="45" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#ffffff">Early RAG pilot and content ingestion</text>
+<text x="48" y="78" font-family="Arial,sans-serif" font-size="18" fill="#dce7f1">CEO Foundry | Late-engagement pilot | Managed retrieval with an event-driven refresh workflow</text>
+<path d="M 230.0 250.0 L 230.0 310.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="236.0" y="265.0" width="97.2" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="240.0" y="280.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">object event</text>
+<path d="M 380.0 200.0 L 435.0 200.0 L 435.0 520.0 L 490.0 520.0" fill="none" stroke="#82659d" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<rect x="439.0" y="345.0" width="111.4" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="443.0" y="360.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#82659d">S3 data source</text>
+<path d="M 230.0 410.0 L 230.0 470.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="236.0" y="425.0" width="111.4" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="240.0" y="440.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">start workflow</text>
+<path d="M 380.0 520.0 L 490.0 520.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="397.1" y="493.0" width="75.9" height="41" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="435.0" y="508.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#344b65">ingestion</text>
+<text x="435.0" y="526.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#344b65">job</text>
+<path d="M 230.0 570.0 L 230.0 630.0" fill="none" stroke="#798998" stroke-width="2.4" stroke-dasharray="3 5" marker-end="url(#arrow)"/>
+<rect x="236.0" y="585.0" width="104.3" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="240.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#798998">record status</text>
+<path d="M 640.0 570.0 L 640.0 630.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="646.0" y="585.0" width="125.6" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="650.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">managed indexing</text>
+<path d="M 1050.0 250.0 L 1050.0 310.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="1056.0" y="265.0" width="61.7" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="1060.0" y="280.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">request</text>
+<path d="M 1050.0 410.0 L 1050.0 470.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="1056.0" y="425.0" width="125.6" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="1060.0" y="440.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">invoke / respond</text>
+<path d="M 900.0 360.0 L 845.0 360.0 L 845.0 440.0 L 640.0 440.0 L 640.0 470.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="846.0" y="420.0" width="125.6" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="850.0" y="435.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">retrieve context</text>
+<path d="M 790.0 520.0 L 900.0 520.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="807.0" y="493.0" width="75.9" height="41" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="845.0" y="508.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#344b65">retrieved</text>
+<text x="845.0" y="526.0" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#344b65">context</text>
+<path d="M 1050.0 570.0 L 1050.0 630.0" fill="none" stroke="#344b65" stroke-width="2.4" marker-end="url(#arrow)"/>
+<rect x="1056.0" y="585.0" width="125.6" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="1060.0" y="600.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#344b65">generated answer</text>
+<path d="M 380.0 680.0 L 435.0 680.0 L 435.0 840.0 L 490.0 840.0" fill="none" stroke="#798998" stroke-width="2.4" stroke-dasharray="3 5" marker-end="url(#arrow)"/>
+<rect x="439.0" y="745.0" width="118.5" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="443.0" y="760.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#798998">workflow errors</text>
+<path d="M 900.0 680.0 L 845.0 680.0 L 845.0 840.0 L 790.0 840.0" fill="none" stroke="#798998" stroke-width="2.4" stroke-dasharray="3 5" marker-end="url(#arrow)"/>
+<rect x="849.0" y="745.0" width="111.4" height="23" rx="3" fill="#ffffff" fill-opacity=".96"/>
+<text x="853.0" y="760.0" text-anchor="start" font-family="Arial,sans-serif" font-size="14" fill="#798998">request errors</text>
+<rect x="80" y="150" width="300" height="100" rx="10" fill="#eaf8f5" stroke="#237c73" stroke-width="1.8"/>
+<text x="230" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Source documents</text>
+<text x="230" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">S3 objects and metadata</text>
+<rect x="900" y="150" width="300" height="100" rx="10" fill="#eff6ff" stroke="#3766a3" stroke-width="1.8"/>
+<text x="1050" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Authorized user</text>
+<text x="1050" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Policy / support question</text>
+<rect x="80" y="310" width="300" height="100" rx="10" fill="#eff6ff" stroke="#3766a3" stroke-width="1.8"/>
+<text x="230" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Refresh trigger</text>
+<text x="230" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">EventBridge + Lambda</text>
+<rect x="900" y="310" width="300" height="100" rx="10" fill="#f4efff" stroke="#7654a8" stroke-width="1.8"/>
+<text x="1050" y="339" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">API Gateway + Lambda</text>
+<text x="1050" y="367" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Identity and request validation</text>
+<rect x="80" y="470" width="300" height="100" rx="10" fill="#eff6ff" stroke="#3766a3" stroke-width="1.8"/>
+<text x="230" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Step Functions</text>
+<text x="230" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Start ingestion and poll status</text>
+<rect x="490" y="470" width="300" height="100" rx="10" fill="#fff5e8" stroke="#af6d22" stroke-width="1.8"/>
+<text x="640" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Bedrock Knowledge Base</text>
+<text x="640" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Managed ingest / retrieval</text>
+<rect x="900" y="470" width="300" height="100" rx="10" fill="#fff5e8" stroke="#af6d22" stroke-width="1.8"/>
+<text x="1050" y="499" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Bedrock model</text>
+<text x="1050" y="527" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Generate from retrieved context</text>
+<rect x="80" y="630" width="300" height="100" rx="10" fill="#eaf8f5" stroke="#237c73" stroke-width="1.8"/>
+<text x="230" y="659" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">DynamoDB status</text>
+<text x="230" y="687" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Refresh progress and errors</text>
+<rect x="490" y="630" width="300" height="100" rx="10" fill="#eaf8f5" stroke="#237c73" stroke-width="1.8"/>
+<text x="640" y="659" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">OpenSearch Serverless</text>
+<text x="640" y="687" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Embedding / metadata index</text>
+<rect x="900" y="630" width="300" height="100" rx="10" fill="#eff6ff" stroke="#3766a3" stroke-width="1.8"/>
+<text x="1050" y="659" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">Cited response</text>
+<text x="1050" y="687" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Return sources to application</text>
+<rect x="490" y="790" width="300" height="100" rx="10" fill="#f1f5f9" stroke="#60758a" stroke-width="1.8"/>
+<text x="640" y="819" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#142b45">CloudWatch logs</text>
+<text x="640" y="847" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#40566b">Refresh and request diagnosis</text>
+<path d="M 48 930 H 1252" stroke="#d1dce5"/>
+<text x="48" y="959" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#344b65">Solid: flow / deployment   •   Dashed: policy / approval   •   Dotted: telemetry / status</text>
+<text x="48" y="987" font-family="Arial,sans-serif" font-size="15" fill="#526577">Under 20 minutes refers to manual effort, not end-to-end indexing latency.</text>
+<text x="48" y="1011" font-family="Arial,sans-serif" font-size="15" fill="#526577">Knowledge Bases pilot belongs to late 2023 / early 2024.</text>
+</svg>
